@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'foto_icon.dart';
 import 'profile.dart';
+import 'profile_list.dart';
 
 void main() => runApp(MyApp());
 
@@ -75,7 +76,13 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       
-      body: Profile("assets/img/ayu.jpg","ayuwokdvi","el mas nuevo y mas loquito"),
+      body: 
+      ListView(
+        children: <Widget>[
+          ProfileList(),
+        ],
+        
+      )
      
      
     
