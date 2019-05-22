@@ -47,6 +47,15 @@ flutter:
   assets:
     - assets/img/ayu.jpg
     - assets/img/michael.jpg
+    - assets/img/adole.jpg
+    - assets/img/adulto.jpg
+    - assets/img/blanco.jpg
+    - assets/img/joven.jpg
+    - assets/img/juicio.jpg
+    - assets/img/miranda.jpg
+    - assets/img/nariz.jpg
+    - assets/img/nino.jpg
+    - assets/img/final.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

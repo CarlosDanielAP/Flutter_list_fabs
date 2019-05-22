@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'foto_icon.dart';
 import 'profile.dart';
 import 'profile_list.dart';
+import 'my_appbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -70,19 +71,23 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
-      appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
+     
       
       body: 
-      ListView(
+Stack(children: <Widget>[
+   ListView(
         children: <Widget>[
           ProfileList(),
         ],
         
-      )
+      ),
+
+MyAppbar()
+
+],
+)
+
+     
      
      
     
